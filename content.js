@@ -41,6 +41,8 @@ function handleText(textNode)
 	v = v.replace(/\bCorona Virus\b/g, "Puppies");
 	v = v.replace(/\bCOVID\b/g, "Kittens");
 	v = v.replace(/\bCOVID-19\b/g, "pet");
+	v = v.replace(/\bDeath\b/g, "snuggle");
+	v = v.replace(/\bDeaths\b/g, "hugs");
     v = v.replace(/\bTrump\b/g, "Cats");
 	v = v.replace(/\bvirus\b/g, "Cat disease");
 	v = v.replace(/\bdisease\b/g, "Sneezes");
